@@ -1,5 +1,17 @@
 <!-- Add Navbar here -->
-<p>Common Navbar should be added here!!!!</p>
+<!-- <p>Common Navbar should be added here!</p> -->
+<div>
+    <mat-toolbar color="primary" backgroundColor="primary">
+        <span>MaxSurge Dental Clinic <br> & Orthodontic center</span>
+        <a mat-button routerLink="/home"> Home </a>
+        <a mat-button routerLink="/about"> About </a>
+        <a mat-button routerLink="/gallery"> Gallery </a>
+        <a mat-button routerLink="/dental-services"> Our Servcies </a>
+        <div class="spacer"></div>
+        <a mat-button routerLink="/contact-us"> Contact Us</a>
+        <a mat-button routerLink="/book-appoinment"> Book Appoinment</a>
+    </mat-toolbar>
+</div>
 <div class="container-fluid theme-body-outline">
     <router-outlet></router-outlet>
 </div>
