@@ -1,4 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.fadeInBottom {
+    animation: fadeInBottom 0.5s ease-in;
+}
+
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateX(20%);
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.h8-font {
+    font-size: 0.7rem !important;
+}
+
+.font-medium {
+    font-family: Poppins-Medium, sans-serif !important;
+}
+
+.font-bold,
+.fw-bold,
+b,
+strong {
+    font-weight: bold;
+}
+
+.page-header {
+    padding: 0 0 20px 0;
+    margin: 0 0 20px 0;
+}

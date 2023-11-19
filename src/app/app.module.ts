@@ -10,6 +10,7 @@ import { AboutComponent } from './components/about/about.component';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
+import { MatMenuModule } from '@angular/material/menu';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { DentalServicesComponent } from './components/dental-services/dental-services.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
@@ -32,7 +33,8 @@ import { BookAppoinmentComponent } from './components/book-appoinment/book-appoi
     BrowserAnimationsModule,
     MatTabsModule,
     MatToolbarModule,
-    MatButtonModule
+    MatButtonModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
