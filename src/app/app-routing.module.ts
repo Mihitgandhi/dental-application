@@ -9,7 +9,6 @@ import { ContactUsComponent } from './components/contact-us/contact-us.component
 import { BookAppoinmentComponent } from './components/book-appoinment/book-appoinment.component';
 
 const routes: Routes = [
-  { path: '', component: HeaderComponent, pathMatch: 'full' },
   {
     path: '',
     component: HeaderComponent,
