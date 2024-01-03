@@ -16,6 +16,7 @@ import { DentalServicesComponent } from './components/dental-services/dental-ser
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { BookAppoinmentComponent } from './components/book-appoinment/book-appoinment.component';
 import { NgbModule, NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { NgbModule, NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
     GalleryComponent,
     DentalServicesComponent,
     ContactUsComponent,
-    BookAppoinmentComponent
+    BookAppoinmentComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

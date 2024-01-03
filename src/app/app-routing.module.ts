@@ -11,7 +11,7 @@ import { BookAppoinmentComponent } from './components/book-appoinment/book-appoi
 const routes: Routes = [
   {
     path: '',
-    component: HeaderComponent,
+    component: HomeComponent,
     pathMatch: 'prefix',
     children: [
       {
