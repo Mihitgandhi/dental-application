@@ -15,6 +15,7 @@ import { GalleryComponent } from './components/gallery/gallery.component';
 import { DentalServicesComponent } from './components/dental-services/dental-services.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { BookAppoinmentComponent } from './components/book-appoinment/book-appoinment.component';
+import { NgbModule, NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,9 @@ import { BookAppoinmentComponent } from './components/book-appoinment/book-appoi
     MatToolbarModule,
     MatButtonModule,
     MatMenuModule,
-    FormsModule
+    FormsModule,
+    NgbModule,
+    NgbCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
