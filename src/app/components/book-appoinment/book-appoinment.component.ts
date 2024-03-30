@@ -7,7 +7,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
   styleUrl: './book-appoinment.component.scss',
 })
 export class BookAppoinmentComponent {
-  myName:string= "";
+  myName:any= "";
   myEmail:string= "";
   myTreatment:string= "";
   myPhonenum: any= "";
