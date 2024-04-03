@@ -1,65 +1,77 @@
-<p>home works!</p>
-<!-- <form class="row g-3 needs-validation" novalidate>
-    <div class="col-md-4">
-      <label for="validationCustom01" class="form-label">First name</label>
-      <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
-      <div class="valid-feedback">
-        Looks good!
+<link rel="stylesheet" href="../../../styles.scss">
+<!-- <div class="mainDiv"> -->
+  <div class="homeDiv">
+<ngb-carousel [interval]="3000">
+  <ng-template ngbSlide *ngFor="let image of images">
+    <div class="carousel-wrapper">
+      <img src="../../../assets/{{image.name}} " alt="image.caption">
+      <div class="caption">{{image.caption}}</div>
+    </div>
+  </ng-template>
+</ngb-carousel>
+<div class="getintouch">
+  <p>Get in touch with us today</p>
+</div>
+<div class="investinsmile">
+  <p>Invest in your smile you wear it everyday...</p>
+</div>
+<br/>
+<div>
+  <h1>Our Services</h1>
+<hr/>
+  </div>
+  
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <h5 class="h5">Dental Implant</h5>
+        <p>It is a titanium post surgically placed into the jawbone to support a replacement tooth. It provides a durable and natural-looking solution for missing teeth, restoring oral function and aesthetics.
+        </p>
+      </div>
+      <div class="col">
+        <h5 class="h5">Teeth Whitening</h5>
+        <p>Also known as bleaching of teeth is a cosmetic procedure of whitening the teeth. People with stained or dull teeth usually benefit from whitening which is a safe and effective way to brighten discoloured teeth.        </p>
+      </div>
+      <div class="col">
+        <h5 class="h5">Tooth Removal</h5>
+        <p>Dental extraction is removal of a tooth from mouth. Wisdom teeth (third molars) are last teeth to appear in your mouth, occurring normally 17 and 25 years of age, a time of life called the “Age of Wisdom”.</p>
       </div>
     </div>
-    <div class="col-md-4">
-      <label for="validationCustom02" class="form-label">Last name</label>
-      <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
-      <div class="valid-feedback">
-        Looks good!
-      </div>
+  </div>
+<br/>
+  <div>
+    <h1>Working Hours</h1>
+  <hr/>
+
+  <table class="table_home">
+    <tr class="border">
+      <td class="col-4 h5"> Monday:</td>
+      <td class="col-8 h5">9:00 am – 1:00 pm | 5:00 pm – 8:00 pm</td>
+    </tr>
+    <tr class="border">
+      <td class="col-4 h5"> Tuesday:</td>
+      <td class="col-8 h5">9:00 am – 1:00 pm | 5:00 pm – 8:00 pm</td>
+    </tr>
+    <tr class="border">
+      <td class="col-4 h5"> Wednesday:</td>
+      <td class="col-8 h5">9:00 am – 1:00 pm | 5:00 pm – 8:00 pm</td>
+    </tr>
+    <tr class="border">
+      <td class="col-4 h5"> Thursday:</td>
+      <td class="col-8 h5">9:00 am – 1:00 pm | 5:00 pm – 8:00 pm</td>
+    </tr>
+    <tr class="border">
+      <td class="col-4 h5"> Friday:</td>
+      <td class="col-8 h5">9:00 am – 1:00 pm | 5:00 pm – 8:00 pm</td>
+    </tr>
+    <tr class="border">
+      <td class="col-4 h5"> Saturday:</td>
+      <td class="col-8 h5">9:00 am – 1:00 pm | 5:00 pm – 8:00 pm</td>
+    </tr>
+    <tr class="border">
+      <td class="col-4 h5"> Sunday:</td>
+      <td class="col-8 h5">9:00 am – 1:00 pm</td>
+    </tr>
+  </table>
     </div>
-    <div class="col-md-4">
-      <label for="validationCustomUsername" class="form-label">Username</label>
-      <div class="input-group has-validation">
-        <span class="input-group-text" id="inputGroupPrepend">&#64;</span>
-        <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
-        <div class="invalid-feedback">
-          Please choose a username.
-        </div>
-      </div>
-    </div>
-    <div class="col-md-6">
-      <label for="validationCustom03" class="form-label">City</label>
-      <input type="text" class="form-control" id="validationCustom03" required>
-      <div class="invalid-feedback">
-        Please provide a valid city.
-      </div>
-    </div>
-    <div class="col-md-3">
-      <label for="validationCustom04" class="form-label">State</label>
-      <select class="form-select" id="validationCustom04" required>
-        <option selected disabled value="">Choose...</option>
-        <option>...</option>
-      </select>
-      <div class="invalid-feedback">
-        Please select a valid state.
-      </div>
-    </div>
-    <div class="col-md-3">
-      <label for="validationCustom05" class="form-label">Zip</label>
-      <input type="text" class="form-control" id="validationCustom05" required>
-      <div class="invalid-feedback">
-        Please provide a valid zip.
-      </div>
-    </div>
-    <div class="col-12">
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-        <label class="form-check-label" for="invalidCheck">
-          Agree to terms and conditions
-        </label>
-        <div class="invalid-feedback">
-          You must agree before submitting.
-        </div>
-      </div>
-    </div>
-    <div class="col-12">
-      <button class="btn btn-primary" type="submit">Submit form</button>
-    </div>
-  </form> -->
+  </div>

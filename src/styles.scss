@@ -46,3 +46,14 @@ strong {
 }
 /* Importing Bootstrap SCSS file. */
 @import 'bootstrap/scss/bootstrap';
+
+.mainDiv{
+    padding-left : 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    width : 1000px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    padding-bottom: 75px;
+}
+
