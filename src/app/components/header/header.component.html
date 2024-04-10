@@ -1,16 +1,24 @@
 <div>
     <mat-toolbar color="primary" backgroundColor="primary">
         <img src="../../../assets/images/logo.jpg" height="60px" width="60px">
-        <span class="logo">MaxSurge Dental Clinic <br> & Implant Center</span>
+        <span class="logo"> MaxSurge Dental Clinic <br> & Implant Center</span>
+        <div class="header">
         <a mat-button routerLink="/home"> Home </a>
         <a mat-button routerLink="/about"> About </a>
         <a mat-button routerLink="/gallery"> Gallery </a>
-        <a mat-button [matMenuTriggerFor]="afterMenu"> Our Servcies </a>
+        <a mat-button [matMenuTriggerFor]="afterMenu"> Our Services </a>
         <mat-menu #afterMenu="matMenu" xPosition="after">
-            <button mat-menu-item routerLink="/dental-services">Implant</button>
-            <button mat-menu-item>Aligners</button>
-            <button mat-menu-item>Aesthetics</button>
+            <button mat-menu-item routerLink="/our-services/dental-implants">Dental Implants</button>
+            <button mat-menu-item routerLink="/our-services/dentistry">Dentistry</button>
+            <button mat-menu-item routerLink="/our-services/braces">Braces</button>
+            <button mat-menu-item routerLink="/our-services/bridges">Bridges</button>
+            <button mat-menu-item routerLink="/our-services/aligners">Aligners</button>
+            <button mat-menu-item routerLink="/our-services/cosmetic-dentistry">Cosmetic Dentistry</button>
+            <button mat-menu-item routerLink="/our-services/crown">Crown</button>
+            <button mat-menu-item routerLink="/our-services/endodontics">Endodontics</button>
+            <button mat-menu-item routerLink="/our-services/complete-dentures">Complete Dentures</button>
         </mat-menu>
+    </div>
         <div class="spacer"></div>
         <a mat-button routerLink="/contact-us"> Contact Us</a>
         <a mat-button routerLink="/book-appoinment"> Book Appoinment</a>
