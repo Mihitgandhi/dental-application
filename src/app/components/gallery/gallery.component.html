@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="../../../styles.scss"> 
 <div class="mainDiv">
   <h1> Gallery </h1>
   <hr/>
@@ -12,34 +13,14 @@
 <br>
       <div class="col-12"><h3>Borivali Center</h3></div>
       <br>
-        <div class="row">
-          <a href="../../../assets/images/implant.jpg" style="padding: 0px;">
-          <img src="../../../assets/images/implant.jpg"/>
-        </a>
-        </div>
-        <div class="row">
-          <a href="../../../assets/images/clinic.jpg" style="padding: 0px;">
-          <img src="../../../assets/images/clinic.jpg"/>
-        </a>
-        </div>
-        <div class="row">
-          <a href="../../../assets/images/smile.jpg" style="padding: 0px;">
-          <img src="../../../assets/images/smile.jpg"/>
-        </a>
-        </div>
-        <div class="row">
-          <a href="../../../assets/images/surgery.jpg" style="padding: 0px;">
-          <img src="../../../assets/images/surgery.jpg"/>
-        </a>
-        </div>
-        <div class="row">
-          <a href="../../../assets/images/braces.jpg" style="padding: 0px;">
-          <img src="../../../assets/images/braces.jpg"/>
-        </a>
-        </div>
-        <div class="row">
-          <a href="../../../assets/images/braces.jpg" style="padding: 0px;">
-          <img src="../../../assets/images/braces.jpg"/>
-        </a>
+          
+            <div class="gallary" *ngFor="let gallary_image of gallary_images">
+              <div class="row">
+                  <div class="col-4">
+            <a href="../../../assets/{{gallary_image.name}}"  >
+            <img src="../../../assets/{{gallary_image.name}}"/>
+            </a>
+            </div>
+          </div>
         </div>
 </div>
