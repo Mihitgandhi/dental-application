@@ -51,9 +51,24 @@ strong {
     padding-left : 20px;
     padding-right: 20px;
     padding-top: 20px;
-    width : 1000px;
+    max-width : 1000px;
     font-family: 'Times New Roman', Times, serif;
     text-align: justify;
     padding-bottom: 75px;
 }
 
+.homeDiv{
+    padding-left : 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    max-width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    padding-bottom: 75px;
+}
+/* wide screen */
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
