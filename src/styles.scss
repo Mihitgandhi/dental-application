@@ -1,4 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
+// /* You can add global styles to this file, and also import other style files */
 
 html,
 body {
@@ -45,7 +45,7 @@ strong {
     margin: 0 0 20px 0;
 }
 /* Importing Bootstrap SCSS file. */
-@import 'bootstrap/scss/bootstrap';
+// @import 'bootstrap/scss/bootstrap';
 
 .mainDiv{
     padding-left : 20px;
@@ -66,8 +66,15 @@ strong {
     text-align: justify;
     padding-bottom: 75px;
 }
+
+h1{
+    color: rgba(34,24,88,255);
+    font-family:sans-serif;
+    font-weight: bolder;
+    }
+
 /* wide screen */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 786px) {
     .left, .main, .right {
       width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
     }
