@@ -1,4 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
+// /* You can add global styles to this file, and also import other style files */
 
 html,
 body {
@@ -45,15 +45,37 @@ strong {
     margin: 0 0 20px 0;
 }
 /* Importing Bootstrap SCSS file. */
-@import 'bootstrap/scss/bootstrap';
+// @import 'bootstrap/scss/bootstrap';
 
 .mainDiv{
     padding-left : 20px;
     padding-right: 20px;
     padding-top: 20px;
-    width : 1000px;
+    max-width : 1000px;
     font-family: 'Times New Roman', Times, serif;
     text-align: justify;
     padding-bottom: 75px;
 }
 
+.homeDiv{
+    padding-left : 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    max-width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    padding-bottom: 75px;
+}
+
+h1{
+    color: rgba(34,24,88,255);
+    font-family:sans-serif;
+    font-weight: bolder;
+    }
+
+/* wide screen */
+@media screen and (max-width: 786px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
