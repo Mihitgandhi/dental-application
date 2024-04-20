@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './complete-dentures.component.scss'
 })
 export class CompleteDenturesComponent {
-
+lineitems=[
+  {main:"Full mouth Dentures : ", sub:"Acrylic/ Fibre glass/ Lucitone/ High Impact"},
+{main:"Partial Dentures : ",sub:"Unilateral/ Bilateral"},
+{main:"Cast Partial Denture"}
+]
 }

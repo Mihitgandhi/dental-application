@@ -2,21 +2,14 @@
 <div class="mainDiv">
     <h1>Aligners </h1>
   <hr/>
-  <div>
-    Clear Aligners or Invisible Braces are transparent teeth clips made of special material that is designed to straighten your teeth to perfection. Unlike metal braces, Aligners are painless, comfortable, and portable. They are custom-made braces for every patient through digital scans that bring the brightest smile to your face.
-    Invisible & Stylish
-Smile with confidence and style without worrying about wires and metal brackets
-
-2
-Removable & Portable
-Whether you’re eating or traveling, our aligners can be removed, packed, and maintained with ease
-
-3
-Painless & Comfy
-Unlike braces that pull and tug, our aligners are painless and comfortable
-
-4
-Healthy & Durable
-Our aligners are made to last and their removable feature enables you to take better care of your teeth
+  <div class="para1">
+    Clear Aligners or Invisible Braces are transparent teeth clips made of special material that is designed to straighten your teeth to perfection. Unlike metal braces, Aligners are painless, comfortable, and portable. 
+    <br><br>
+    They are custom-made braces for every patient through digital scans that bring the brightest smile to your face.
+    <br>
+    <br>
+    <ul *ngFor="let lineitem of lineitems">
+      <li><b>{{lineitem.main}}</b> <br>{{lineitem.sub}}</li>
+    </ul>
   </div>
 </div>
