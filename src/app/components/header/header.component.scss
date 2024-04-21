@@ -1,13 +1,25 @@
 .mat-toolbar {
     background-color: rgba(34,24,88,255);
+    padding-right: 50px;
+    min-width: min-content;
 }
 
 .mat-button {
     color: white;
+    padding-left: 10px;
+    
 }
 
 .spacer {
     flex: 1 1 auto;
+}
+
+header {
+    position:absolute;
+    width: 100%;
+    color: white;
+    text-align: left;
+    padding-right: 50px;
 }
 
 .logo{
@@ -17,4 +29,8 @@
 
 .menu{
     padding-left: 100px;
+}
+
+a{
+    margin-right: 20px;
 }

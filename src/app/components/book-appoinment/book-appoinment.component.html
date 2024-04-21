@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="../../../styles.scss">
 <div class="mainDiv">
     <div>
         <h1> Book Appoinment </h1>
@@ -30,7 +31,7 @@
                   </div>
                 </div>
                  <div class="control-group">
-                    <label for="validationTooltip04" class="form-label">What treatment are you looking for? <sup>*</sup></label>
+                    <label for="validationTooltip04" class="form-label">What treatment are you looking for? <sup style="color:red">*</sup></label>
                     <div class="col-md-3">
                         <select class="form-select" id="validationTooltip04" required [(ngModel)]="myTreatment" name="myTreatment" (change)="update($event)">
                             <option value="default"> Choose... </option> 

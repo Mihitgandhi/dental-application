@@ -4,13 +4,13 @@
 <ngb-carousel [interval]="3000">
   <ng-template ngbSlide *ngFor="let image of images">
     <div class="carousel-wrapper">
-      <img src="../../../assets/{{image.name}} " alt="image.caption">
-      <div class="caption">{{image.caption}}</div>
+      <img src="../../../assets/{{ image.name }} " alt="image.caption">
+      <!-- <div class="caption">{{ image.caption }}</div> -->
     </div>
   </ng-template>
 </ngb-carousel>
 <div class="getintouch">
-  <p>Get in touch with us today</p>
+  <p>Get in touch with us today +91 96533 75225</p>
 </div>
 <div class="investinsmile">
   <p>Invest in your smile you wear it everyday...</p>
@@ -43,10 +43,10 @@
     <h1>Working Hours</h1>
   <hr/>
 
-  <table class="table_home">
-    <tr class="border">
+  <table class="table_home" *ngFor="let elem of workingHrs">
+    <!-- <tr class="border">
       <td class="col-4 h5"> Monday:</td>
-      <td class="col-8 h5">9:00 am – 1:00 pm | 5:00 pm – 8:00 pm</td>
+      <td class="col-8 h5">9:30 am – 1:30 pm | 5:30 pm – 9:00 pm</td>
     </tr>
     <tr class="border">
       <td class="col-4 h5"> Tuesday:</td>
@@ -71,6 +71,10 @@
     <tr class="border">
       <td class="col-4 h5"> Sunday:</td>
       <td class="col-8 h5">9:00 am – 1:00 pm</td>
+    </tr> -->
+    <tr class="">
+      <td class="col-4 h5">{{ elem.day }}</td>
+      <td class="col-8 h5" [class]="elem.day == 'Sunday' ? 'wh': ''">{{ elem.time }}</td>
     </tr>
   </table>
     </div>
