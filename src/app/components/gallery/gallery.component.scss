@@ -34,10 +34,3 @@ img{
   position: relative;
   border: 4px solid white; 
 }
-
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*=".mainDiv"] {
-      width: 100%;
-    }
-  }

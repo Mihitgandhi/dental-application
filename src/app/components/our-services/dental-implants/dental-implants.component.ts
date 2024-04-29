@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class DentalImplantsComponent {
 
+lineitems=[
+  "Any tooth extraction, as indicated",
+  "Implant placement, as planned",
+  "Custom made CAD-CAM (designed ‘n’ milled) permanent prosthesis (teeth) fixed on Implants."
+  ]
 }

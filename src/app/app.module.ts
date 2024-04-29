@@ -58,7 +58,7 @@ import { BridgesComponent } from './components/our-services/bridges/bridges.comp
     FormsModule,
     NgbModule,
     NgbCarouselModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
